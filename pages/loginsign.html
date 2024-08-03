@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="../assets/css/login.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="container" id="container">
+  <div class="form-container sign-up-container">
+    <form action="#">
+      <h1>Buat Akun</h1>
+      <div class="social-container">
+        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <span>atau gunakan email untuk registrasi</span>
+      <input type="text" placeholder="Nama" />
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+      <button>Sign Up</button>
+      <button class="toggle-form" id="mobileSignIn">Sudah Mempunyai Akun? Log In</button>
+    </form>
+  </div>
+  <div class="form-container sign-in-container">
+    <form action="#">
+      <a href="../index.html" class="back"> ⬅ Kembali ke home</a>
+      <h1>Log In</h1>
+      <div class="social-container">
+        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <span>atau gunakan akunmu</span>
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+      <a href="#">Lupa Password?</a>
+      <button>Log In</button>
+      <button class="toggle-form" id="mobileSignUp">Belum Mempunyai Akun? Sign Up</button>
+    </form>
+  </div>
+  <div class="overlay-container">
+    <div class="overlay">
+      <div class="overlay-panel overlay-left">
+        <a href="../index.html" class="back"> ⬅ Kembali ke home</a>
+        <h1>Selamat Kembali!</h1>
+        <p>Untuk tetap terhubung dengan kami, silakan login dengan detail pribadi Anda</p>
+        <button class="ghost" id="signIn">Log In</button>
+      </div>
+      <div class="overlay-panel overlay-right">
+        <h1>Halo!</h1>
+        <p>Masukkan detail pribadi Anda untuk membuka akun dengan kami</p>
+        <button class="ghost" id="signUp">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../assets/js/login.js" charset="utf-8"></script>
+</body>
+
+</html>
